@@ -1,0 +1,34 @@
+\documentclass[t,11pt,dvipsnames]{beamer}
+\usetheme[block=fill]{metropolis}
+\usepackage{xeCJK}
+
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage[normalem]{ulem}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{bussproofs}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{textcomp} % for \texttimes
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric} % isosceles triangle
+
+\XeTeXlinebreaklocale "zh"
+\setCJKmainfont{NotoSansCJKtc-DemiLight}
+\setCJKmonofont{NotoSansMonoCJKtc-Regular}
+
+\DeclareMathOperator{\tteq}{\texttt{=}}
+\DeclareMathOperator{\ttplus}{\texttt{+}}
+\DeclareMathOperator{\tttimes}{\texttt{\texttimes}}
+\DeclareMathOperator{\coloneq}{:\!=}
+\DeclareMathOperator{\mseq}{> \!\!\! >}
+\DeclareMathOperator{\vdashs}{\vdash_\text{\!\tiny s}}
+\DeclareMathOperator{\vdashv}{\vdash_\text{\!\tiny v}}
+\DeclareMathOperator{\starv}{\star_\text{\tiny v}}
+\newcommand{\Forall}{{\forall \hspace{-0.44em} \forall}}
+\newcommand{\Exists}{{\exists \hspace{-0.42em} \exists}}
+
+\begin{document}
+◊(->tex-string doc)
+
+\end{document}
